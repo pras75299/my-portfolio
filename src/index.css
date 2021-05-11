@@ -1,0 +1,81 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: darkblue;
+  color: white;
+  height: 50px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.navbar h2 a {
+  color: #fff;
+  text-decoration: none;
+}
+.navbar ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.navbar ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.navbar ul li:last-child {
+  margin-right: 0px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul.pagination {
+  margin: 0px 0px 20px 0px;
+  padding: 0px;
+  list-style: none;
+}
+ul.pagination li {
+  display: inline;
+  margin: 0 10px 0 0;
+  text-align: left;
+}
+ul.pagination li button {
+  text-decoration: none;
+  cursor: pointer;
+  background: #fff;
+  border: #ccc solid 1px;
+  color: #222;
+  padding: 2px 4px;
+}
+
+.logoImage{
+  width: 60px;
+  animation: App-logo-spin infinite 10s linear;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
