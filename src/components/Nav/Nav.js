@@ -1,19 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from '../../logo.svg';
+import classes from './Nav.module.css';
+import { AiOutlineBars } from 'react-icons/ai';
 
 function Nav() {
   return (
-    <nav className="navbar">
-      <h2>
-        <Link to="/"><img className="logoImage" src={logo} alt="Logo" /></Link>
-      </h2>
-      <ul>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
+    <header className={classes.headerSection}>
+      <div className={classes.logo}>
+        <Link to="/">PRASHANT</Link>
+      </div>
+      <div className={classes.responsive}><AiOutlineBars/></div>
+      <ul className={classes.menuList}>
+        <li> <Link to="/">Home</Link></li>
+        <li><Link to="/about">About</Link></li>
+        
       </ul>
-    </nav>
+	  </header>
   );
 }
 export default Nav;

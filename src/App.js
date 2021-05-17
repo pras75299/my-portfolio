@@ -18,5 +18,7 @@ export default function App() {
 }
 
 const Home = () => {
-  return <h1>Home Page</h1>;
+  return <section className="homeSection">
+    <h1>Home Page</h1>
+  </section>;
 };
