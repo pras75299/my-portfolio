@@ -1,95 +1,103 @@
 .headerSection {
-    /* position: absolute;
-    top: 0;
-    left: 0; */
-    width: 100%;
-    z-index: 999;
-    padding: 15px 50px;
-    float: left;
-    background: #e4edff;
-    margin-bottom: 20px;
-  }
-  
-  .headerSection .logo {
-    display: inline-block;
-    float: left;
-  }
-  
-  .headerSection .logo a {
-    color: darkblue;
-    font-size: 28px;
-    line-height: 36px;
-    font-weight: 800;
-    font-family: "Raleway", sans-serif;
-    text-decoration: none;
-  }
-  
-  .headerSection .menuList {
-    list-style: none;
-    float: right;
-    margin-top: 0;
-  }
-  
-  .headerSection .menuList li {
-    display: inline;
-  }
-  
-  .headerSection .menuList li a {
-    display: inline-block;
-    padding: 10px;
-    color: darkblue;
-    position: relative;
-    font-family: 'Athiti', sans-serif;
-    font-size: 16px;
-    letter-spacing: 0.09em;
-    text-decoration: none;
-  }
-  
-  .headerSection .menuList li a:after {
-    position: absolute;
-    content: "";
-    width: 0px;
-    height: 2px;
-    bottom: 6px;
-    left: 50%;
-    margin-left: 0px;
-    background: #673AB7;
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-  }
-  
-  .headerSection .menuList li a:hover:after {
-    width: 20px;
-    margin-left: -10px;
-  }
-  
-  .headerSection .menuList .current a:after {
-    width: 20px;
-    margin-left: -10px;
-  }
-  
-  .headerSection.sticky {
-    position: fixed;
-    background: #000;
-    padding: 10px 50px;
-  }
-  
-  .headerSection.sticky .logo img {
-    height: 55px;
-  }
-  
-  .headerSection.sticky .menuList li a {
-    color: #a0a0a0;
-  }
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  padding: 10px 50px;
+  float: left;
+  background: transparent;
+  margin-bottom: 20px;
+}
+
+.headerSection.sticky {
+  position: fixed;
+  background: #000;
+  padding: 10px 50px;
+}
+
+.headerSection .logo {
+  display: inline-block;
+  float: left;
+}
+
+.headerSection .logo a {
+  color: #fff;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+}
+
+.headerSection .menuList {
+  list-style: none;
+  float: right;
+  margin-top: 0;
+}
+
+.headerSection .menuList li {
+  display: inline;
+}
+
+.headerSection .menuList li a {
+  display: inline-block;
+  padding: 10px;
+  color: #fff;
+  position: relative;
+  font-family: 'Athiti', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.09em;
+  text-decoration: none;
+}
+
+.headerSection .menuList li a:after {
+  position: absolute;
+  content: "";
+  width: 0px;
+  height: 2px;
+  bottom: 6px;
+  left: 50%;
+  margin-left: 0px;
+  background: #fff;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.headerSection .menuList li a:hover:after {
+  width: 20px;
+  margin-left: -10px;
+}
+
+.headerSection .menuList .current a:after {
+  width: 20px;
+  margin-left: -10px;
+}
+
+.headerSection.sticky {
+  position: fixed;
+  background: #000;
+  padding: 10px 50px;
+}
+
+.headerSection.sticky .logo img {
+  height: 55px;
+}
+
+.headerSection.sticky .menuList li a {
+  color: #a0a0a0;
+}
+
+.responsive {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
   .responsive {
-    display: none;
+    display: block;
+    color: #fff;
+    font-size: 34px;
+    position: absolute;
+    right: 30px;
   }
-  @media only screen and (max-width: 767px) {
-    .responsive {
-        display: block;
-        color: #fff;
-        font-size: 34px;
-        position: absolute;
-        right: 30px;
-    }
-  }
+}
