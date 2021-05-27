@@ -83,6 +83,7 @@ ul.pagination li button {
 .homeSection{
   width: 100%;
   clear: both;
+  height: 100vh;
 }
 /* new css add */
 .headerSection .logo a span{
