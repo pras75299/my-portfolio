@@ -11,8 +11,8 @@ export default function Home() {
 				<h2><span>I'm</span> Prashant Singh</h2>
 				<p>Web Designer . Front-End Developer</p>
 				<div className={classes.socialLinks}>
-					<a href="#" className={classes.facebook}><FaLinkedinIn/></a>
-					<a href="#" className={classes.twitter}><FaGithub/></a>
+					<a href="javascript:void('0)" className={classes.facebook}><FaLinkedinIn/></a>
+					<a href="javascript:void('0)" className={classes.twitter}><FaGithub/></a>
 				</div>
 				<div className={classes.downSection}>
                     <Link activeClass="active" spy={true} smooth={true} to='about' offset={200}>
