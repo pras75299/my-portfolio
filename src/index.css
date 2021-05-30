@@ -1,3 +1,4 @@
+
 * {
   margin: 0px;
   padding: 0px;
@@ -31,6 +32,163 @@ body {
   }
 }
 
+/* ====================
+  Common Styles
+=======================*/
+
+.fix {
+  overflow: hidden;
+}
+
+.pt100 {
+  padding-top: 100px;
+}
+
+.pb65 {
+  padding-bottom: 65px;
+}
+
+.pb70 {
+  padding-bottom: 70px;
+}
+
+.pb80 {
+  padding-bottom: 80px;
+}
+
+.pb90 {
+  padding-bottom: 90px;
+}
+
+.pb100 {
+  padding-bottom: 100px;
+}
+
+.mb100 {
+  margin-bottom: 100px;
+}
+
+.mb70 {
+  margin-bottom: 70px;
+}
+
+.mb40 {
+  margin-bottom: 40px;
+}
+
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mt25 {
+  margin-top: 25px;
+}
+
+.mt30 {
+  margin-top: 30px;
+}
+
+.mt40 {
+  margin-top: 40px;
+}
+
+.transitionEase {
+  transition: all 0.3s ease;
+}
+
+.transitionEase:hover {
+  opacity: 0.90;
+}
+
+.nopad {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.sectionTitle {
+  text-align: center;
+  position: relative;
+  padding-bottom: 23px;
+  width: 100%;
+}
+
+.sectionTitle h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 36px;
+  font-weight: 800;
+  text-transform: capitalize;
+  color: #000;
+}
+
+.sectionTitle h2:after {
+  content: "";
+  height: 1px;
+  width: 90px;
+  background: #9c9c9c;
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 45px);
+  z-index: 1;
+}
+
+.sectionTitle h2:before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: calc(50% - 10px);
+  height: 6px;
+  width: 20px;
+  z-index: 2;
+}
+
+.siteBtn {
+  position: relative;
+  color: #fff;
+  padding: 14px 40px;
+  border: none;
+  font-family: 'Gloria Hallelujah', cursive;
+  line-height: normal;
+  text-transform: uppercase;
+  border-radius: 50px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  min-width: 170px;
+}
+
+.siteBtn:hover, .siteBtn:focus {
+  outline: none;
+}
+
+.siteBtn.btnOutline {
+  background: transparent;
+  padding: 12px 40px;
+}
+
+.mouse-bg {
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  position: absolute;
+}
+
+.sectionTitle h2:before {
+  background: #2196f3;
+}
 .homeSection{
   width: 100%;
   clear: both;
@@ -70,7 +228,7 @@ body {
 .headerSection .menuList {
   list-style: none;
   float: right;
-  margin-top: 0;
+  margin: 0;
 }
 
 .headerSection .menuList li {
@@ -381,6 +539,63 @@ body {
 }
 
 
+/* ====================
+  About Section
+=======================*/
 
+.aboutSection {
+  position: relative;
+}
 
+.aboutText h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.aboutText p ins {
+  text-decoration-style: dashed;
+}
+
+.singleProgressItem {
+  margin-bottom: 35px;
+  position: relative;
+}
+
+.singleProgressItem p {
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.3em;
+  margin-bottom: 0px;
+  color: #333;
+}
+
+.progressBarStyle {
+  display: block;
+  height: 5px;
+  position: relative;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.barInner {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 25px;
+}
+
+.barInner span {
+  position: absolute;
+  right: 0;
+  font-weight: bold;
+  top: -15px;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+}
+
+.aboutImg img{
+  width: 100%;
+}
 /* new css ends */
