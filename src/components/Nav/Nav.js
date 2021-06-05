@@ -25,7 +25,8 @@ function Nav() {
       <div className="responsive"><AiOutlineBars/></div>
       <ul className="menuList">
         <li> <Link activeClass="active" spy={true} smooth={true} to='home'>Home</Link></li>
-        <li><Link activeClass="active" spy={true} smooth={true} to='about' offset={200}>About</Link></li>
+        <li><Link activeClass="active" spy={true} smooth={true} to='about' offset={0}>About</Link></li>
+        <li><Link activeClass="active" spy={true} smooth={true} to='whattodo' offset={0}>What to Do</Link></li>
         
       </ul>
 	  </header>
